@@ -3,8 +3,8 @@
 A tiny and fast Node.js library to ANSI colors to terminal output.
 
 >Started as a fork
-> of [**@ai**](https://github.com/ai)
-> [`nanocolors`](https://github.com/ai/nanocolors)'s, which is a fork
+> of [**@ai**](https://github.com/ai)'s
+> [`nanocolors`](https://github.com/ai/nanocolors), which is a fork
 > of [**@jorgebucaran**](https://github.com/jorgebucaran/)’s
 > [`colorette`](https://github.com/jorgebucaran/colorette) with hacks
 > from [**@lukeed**](https://github.com/lukeed/)’s
