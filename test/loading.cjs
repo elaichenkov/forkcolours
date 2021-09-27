@@ -40,5 +40,9 @@ let pen = require('felt-pen')
 showTime('felt-pen')
 
 before = performance.now()
-let nanocolors = require('../index.cjs')
+let nanocolors = require('nanocolors')
 showTime('nanocolors')
+
+before = performance.now()
+let forkcolours = require('../index.cjs')
+showTime('forkcolours')

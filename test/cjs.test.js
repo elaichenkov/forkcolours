@@ -1,4 +1,4 @@
-import * as main from '../index.cjs'
+import * as main from '../min/index.org.cjs'
 import * as esm from '../index.js'
 
 it('prints colors', () => {

@@ -1,7 +1,9 @@
-The Nano Colors project includes codes derived from a third party:
+The Fork Colours project includes codes derived from a third party:
 
+* nanocolors. Fork Colours is fork of nanocolors.
 * colorette. Nano Colors is fork of colorette.
 
+    Copyright © Andrey Sitnik <<andrey@sitnik.ru>>
     Copyright © Jorge Bucaran <<https://jorgebucaran.com>>
 
     Permission is hereby granted, free of charge, to any person obtaining a copy

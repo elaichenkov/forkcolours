@@ -1,5 +1,5 @@
-import * as browser from '../index.browser.js'
-import browserCjs from '../index.browser.cjs'
+import * as browser from '../min/index.browser.org.js'
+import browserCjs from '../min/index.browser.org.cjs'
 import * as main from '../index.js'
 
 describe('ESM', () => {

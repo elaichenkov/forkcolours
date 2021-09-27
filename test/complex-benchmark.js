@@ -8,8 +8,9 @@ import chalk from 'chalk'
 import ansi from 'ansi-colors'
 import cliColor from 'cli-color'
 import * as pen from 'felt-pen'
+import * as nanocolors from 'nanocolors'
 
-import * as nanocolors from '../index.js'
+import * as forkcolours from '../index.js';
 
 function formatNumber(number) {
   return String(number)
@@ -52,6 +53,11 @@ suite
   .add('nanocolors', () => {
     out = nanocolors.red(
       nanocolors.green('green') + ' red ' + nanocolors.bold(++index)
+    )
+  })
+  .add('forkcolours', () => {
+    out = forkcolours.red(
+      forkcolours.green('green') + ' red ' + forkcolours.bold(++index)
     )
   })
   .on('cycle', event => {
