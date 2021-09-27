@@ -37,11 +37,11 @@ suite
   .add('kleur/colors', () => {
     out = kleurColors.red(kleurColors.bold('bold') + ' red')
   })
-  .add('colorette', () => {
-    out = colorette.red(colorette.bold('bold') + ' red')
-  })
   .add('felt-pen', () => {
     out = pen.red(pen.bold('bold') + ' red')
+  })
+  .add('colorette', () => {
+    out = colorette.red(colorette.bold('bold') + ' red')
   })
   .add('nanocolors', () => {
     out = nanocolors.red(nanocolors.bold('bold') + ' red')

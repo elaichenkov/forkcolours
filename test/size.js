@@ -38,8 +38,8 @@ async function start() {
   await benchmark('cli-color')
   await benchmark('ansi-colors')
   await benchmark('kleur')
-  await benchmark('colorette')
   await benchmark('felt-pen')
+  await benchmark('colorette')
   await benchmark('nanocolors')
   await benchmark('forkcolours')
 }

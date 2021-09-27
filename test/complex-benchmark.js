@@ -42,13 +42,13 @@ suite
       kleurColors.green('green') + ' red ' + kleurColors.bold(++index)
     )
   })
+  .add('felt-pen', () => {
+    out = pen.red(pen.green('green') + ' red ' + pen.bold(++index))
+  })
   .add('colorette', () => {
     out = colorette.red(
       colorette.green('green') + ' red ' + colorette.bold(++index)
     )
-  })
-  .add('felt-pen', () => {
-    out = pen.red(pen.green('green') + ' red ' + pen.bold(++index))
   })
   .add('nanocolors', () => {
     out = nanocolors.red(

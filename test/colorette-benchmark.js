@@ -28,8 +28,8 @@ runBenchmark(
   {
     chalk,
     kleur,
-    nanocolors,
     colorette,
+    nanocolors,
     forkcolours,
     "ansi-colors": ansiColors,
   }
