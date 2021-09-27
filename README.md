@@ -13,10 +13,10 @@ A brand new, not another, special and fast Node.js library to ANSI colours to te
 **Key features:**
 
 * This library was inspired by many other **unique** libraries
-* It is **faster** than alternatives
 * It is British friendly: Tiny **Colours** not **Colors**
 * It is a **fork** of **fork**
 * It is **one-liner** program
+* It is **faster** than alternatives
 * Total files: **7**
 * Package size: **4.6 kB**
 * Unpacked size: **14.9 kB**
