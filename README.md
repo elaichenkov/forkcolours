@@ -32,8 +32,17 @@ console.log(
   green(`Task ${bold('1')} was finished`)
 )
 ```
+## Inspired by:
 
-## Benchmarks
+- [Nanocolors](https://github.com/ai/nanocolors) by [@ai](https://github.com/ai)
+- [Colorette](https://github.com/jorgebucaran/colorette) by [@jorgebucaran](https://github.com/jorgebucaran)
+- [Kleur](https://github.com/lukeed/kleur) by [@lukeed](https://github.com/lukeed)
+- [Colors.js](https://github.com/Marak/colors.js) by [@Marak](https://github.com/Marak)
+- [Chalk](https://github.com/chalk/chalk) by [@sindresorhus](https://github.com/sindresorhus)
+- And many more...
+
+## Real-time Benchmarks:
+
 
 
 ## Replacing `chalk`

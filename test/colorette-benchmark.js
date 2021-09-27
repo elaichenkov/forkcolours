@@ -26,11 +26,11 @@ runBenchmark(
       )}`
     ),
   {
-    forkcolours,
-    nanocolors,
-    colorette,
     chalk,
     kleur,
+    nanocolors,
+    colorette,
+    forkcolours,
     "ansi-colors": ansiColors,
   }
 )
