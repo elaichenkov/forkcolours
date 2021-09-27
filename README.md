@@ -12,10 +12,11 @@ A tiny and fast Node.js library to ANSI colors to terminal output.
 
 **Main features:**
 
-* It is british friendly: Tiny **Colours** not **Colors**
-* It is a fork of fork
-* It is **one-liner** program
 * This library was inspired by many **unique** libraries
+* It is **faster** than alternatives
+* It is british friendly: Tiny **Colours** not **Colors**
+* It is a **fork** of **fork**
+* It is **one-liner** program
 * Total files: **7**
 
 **Besides:**
@@ -33,7 +34,7 @@ console.log(
   green(`Task ${bold('1')} was finished`)
 )
 ```
-## Inspired by:
+## Inspired by
 
 - [Nanocolors](https://github.com/ai/nanocolors) by [@ai](https://github.com/ai)
 - [Colorette](https://github.com/jorgebucaran/colorette) by [@jorgebucaran](https://github.com/jorgebucaran)
@@ -42,10 +43,78 @@ console.log(
 - [Chalk](https://github.com/chalk/chalk) by [@sindresorhus](https://github.com/sindresorhus)
 - And many more...
 
-## Real-time Benchmarks:
+## [Real-time Benchmarks](https://github.com/elaichenkov/forkcolours/actions/workflows/bench.yml)
 
+[Simple](test/simple-benchmark.js)
 
+```shell
+Run node test/simple-benchmark.js
+  chalk 27,865,695 ops/sec
+  cli-color 320,071 ops/sec
+  ansi-colors 1,454,343 ops/sec
+  kleur 69,030,393 ops/sec
+  kleur/colors 61,530,806 ops/sec
+  felt-pen 21,725,908 ops/sec
+  colorette 18,321,149 ops/sec
+  nanocolors 7,978,665 ops/sec
+  forkcolours 18,935,821 ops/sec 🚀
+```
 
+[Complex](test/complex-benchmark.js)
+
+```shell
+Run node test/complex-benchmark.js
+  chalk 7,265,255 ops/sec
+  cli-color 216,698 ops/sec
+  ansi-colors 610,524 ops/sec
+  kleur 11,316,157 ops/sec
+  kleur/colors 11,019,217 ops/sec
+  felt-pen 7,388,171 ops/sec
+  colorette 1,487,709 ops/sec
+  nanocolors 1,463,641 ops/sec
+  forkcolours 1,537,279 ops/sec 🚀
+```
+
+[Loading](test/loading.cjs)
+
+```shell
+Run node test/loading.cjs
+  chalk 8.838 ms
+  cli-color 47.355 ms
+  ansi-colors 4.199 ms
+  kleur 5.217 ms
+  kleur/colors 1.824 ms
+  felt-pen 0.715 ms
+  colorette 1.515 ms
+  nanocolors 0.917 ms
+  forkcolours 0.763 ms 🚀
+```
+
+[Size](test/size.js)
+
+```shell
+Run node test/size.js
+  chalk 101 kB
+  cli-color 1249 kB
+  ansi-colors 25 kB
+  kleur 21 kB
+  felt-pen 10 kB
+  colorette 16 kB
+  nanocolors 16 kB
+  forkcolours 16 kB 🚀
+```
+
+[Colorette](test/colorette-benchmark.js)
+
+```shell
+  Run node test/colorette-benchmark.js
+  chalk × 6,570,253 ops/sec
+  kleur × 10,115,512 ops/sec
+  ansi-colors × 202,788 ops/sec
+  colorette × 459,384 ops/sec
+  nanocolors × 435,993 ops/sec
+  forkcolours × 469,867 ops/sec 🚀
+```
 ## Replacing `chalk`
 
 1. Replace import and use named exports:
