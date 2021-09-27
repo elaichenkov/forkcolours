@@ -28,9 +28,9 @@ runBenchmark(
   {
     chalk,
     kleur,
+    "ansi-colors": ansiColors,
     colorette,
     nanocolors,
     forkcolours,
-    "ansi-colors": ansiColors,
   }
 )
