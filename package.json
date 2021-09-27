@@ -1,6 +1,6 @@
 {
   "name": "forkcolours",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "4x times faster than chalk and use 5x less space in node_modules",
   "keywords": [
     "color",

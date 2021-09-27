@@ -1,6 +1,6 @@
 # Fork Colours
 
-A brand new, not another, special and fast Node.js library to ANSI colors to terminal output.
+A brand new, not another, special and fast Node.js library to ANSI colours to terminal output.
 
 >Started as a fork
 > of [**@ai**](https://github.com/ai)'s
@@ -109,13 +109,13 @@ Run node test/size.js
 [Colorette](test/colorette-benchmark.js)
 
 ```shell
-  Run node test/colorette-benchmark.js
-  chalk × 6,570,253 ops/sec
-  kleur × 10,115,512 ops/sec
-  ansi-colors × 202,788 ops/sec
-  colorette × 459,384 ops/sec
-  nanocolors × 435,993 ops/sec
-  forkcolours × 469,867 ops/sec 🚀
+Run node test/colorette-benchmark.js
+  chalk 6,570,253 ops/sec
+  kleur 10,115,512 ops/sec
+  ansi-colors 202,788 ops/sec
+  colorette 459,384 ops/sec
+  nanocolors 435,993 ops/sec
+  forkcolours 469,867 ops/sec 🚀
 ```
 ## Replacing `chalk`
 
