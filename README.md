@@ -18,6 +18,8 @@ A tiny and fast Node.js library to ANSI colors to terminal output.
 * It is a **fork** of **fork**
 * It is **one-liner** program
 * Total files: **7**
+* Package size: **4.6 kB**
+* Unpacked size: **14.9 kB**
 
 **Besides:**
 * It is **4 times faster** than `chalk` for simple use cases.
