@@ -1,6 +1,6 @@
 # Fork Colours
 
-A tiny and fast Node.js library to ANSI colors to terminal output.
+A brand new, not another, special and fast Node.js library to ANSI colors to terminal output.
 
 >Started as a fork
 > of [**@ai**](https://github.com/ai)'s
@@ -10,18 +10,18 @@ A tiny and fast Node.js library to ANSI colors to terminal output.
 > from [**@lukeed**](https://github.com/lukeed/)’s
 > [`kleur`](https://github.com/lukeed/kleur).
 
-**Main features:**
+**Key features:**
 
-* This library was inspired by many **unique** libraries
+* This library was inspired by many other **unique** libraries
 * It is **faster** than alternatives
-* It is british friendly: Tiny **Colours** not **Colors**
+* It is British friendly: Tiny **Colours** not **Colors**
 * It is a **fork** of **fork**
 * It is **one-liner** program
 * Total files: **7**
 * Package size: **4.6 kB**
 * Unpacked size: **14.9 kB**
 
-**Besides:**
+**Also:**
 * It is **4 times faster** than `chalk` for simple use cases.
 * **No dependencies.** It takes **5 times less space** in `node_modules`
   than `chalk`.
