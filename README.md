@@ -13,7 +13,7 @@ A brand new, not another, special and fast Node.js library to ANSI colours to te
 **Key features:**
 
 * This library was inspired by many other **unique** libraries
-* It is British friendly: Tiny **Colours** not **Colors**
+* It is British friendly: **Colours** not **Colors**
 * It is a **fork** of **fork**
 * It is **one-liner** program
 * It is **faster** than alternatives
