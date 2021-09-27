@@ -1,0 +1,24 @@
+name: Benchmarks
+on: [push, pull_request]
+jobs:
+  bench:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - name: Simple
+        run: node test/simple-benchmark.js
+
+      - name: Complex
+        run: node test/complex-benchmark.js
+
+      - name: Size
+        run: node test/size.js
+
+      - name: Loading
+        run: node test/loading.cjs
+
+      - name: Colorette
+        run: node test/colorette-benchmark.js
