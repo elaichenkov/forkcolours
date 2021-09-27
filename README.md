@@ -12,10 +12,11 @@ A tiny and fast Node.js library to ANSI colors to terminal output.
 
 **Main features:**
 
-* It is british friendly Tiny `Colours` not `Colors`
+* It is british friendly: Tiny **Colours** not **Colors**
 * It is a fork of fork
-* It has a history of all commits
-* It is one-liner program
+* It is **one-liner** program
+* This library was inspired by many **unique** libraries
+* Total files: **7**
 
 **Besides:**
 * It is **4 times faster** than `chalk` for simple use cases.
